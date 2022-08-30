@@ -21,10 +21,15 @@ class BuildAppBar extends StatelessWidget with PreferredSizeWidget {
           height: 200,
           child: Row(
             children: [
-              Icon(Icons.menu),
+              SvgPicture.asset(
+              'assets/icons/menu.svg',
+                ),
+
+              
               Expanded(
                 child: SvgPicture.asset(
                   'assets/logos/appbar_logo.svg',
+                  
                   height: 28,
                   alignment: Alignment.center,
                 ),
