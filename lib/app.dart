@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:orio_employees/features/employee/screen/employeedetail_screen.dart';
 import 'package:orio_employees/features/notification/presentation/screen/notification_screen.dart';
 import 'package:orio_employees/features/screen/Home/home_screen.dart';
 import 'package:orio_employees/features/screen/splash/splash_screen.dart';
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
           // theme: AppTheme.themeData(),
           
           // initialRoute: SplashScreen.id,
-          initialRoute: HomeScreen.id,
+          // initialRoute: HomeScreen.id,
+          initialRoute: EmployeeDetails.id,
           routes: Routes.routes,
       
     );
