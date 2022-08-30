@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:orio_employees/features/employee/screen/employeedetail_screen.dart';
 import 'package:orio_employees/shared/routes/navigate.dart';
 
 class HomeCard extends StatelessWidget {
@@ -13,7 +14,7 @@ class HomeCard extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
 
     return GestureDetector(
-      // onTap: () => Navigate.to(context, EmployeDetails.id),
+      onTap: () => Navigate.to(context, EmployeeDetails.id),
       child: Container(
         width: size.width * 0.45,
         // height: 150,

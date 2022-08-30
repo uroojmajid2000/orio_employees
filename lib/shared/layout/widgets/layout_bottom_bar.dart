@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:orio_employees/features/notification/presentation/screen/notification_screen.dart';
+import 'package:orio_employees/features/screen/Home/home_screen.dart';
 import 'package:orio_employees/shared/layout/widgets/navigation_button.dart';
+import 'package:orio_employees/shared/routes/navigate.dart';
 
 class LayoutBottomBar extends StatefulWidget {
   final int currentTab;
@@ -30,8 +33,8 @@ class _LayoutBottomBarState extends State<LayoutBottomBar> {
               children: [
                 NavigationButton(
 
-                  onPressed: () => {}
-                  // Navigate.to(context, HomeScreen.id)
+                  onPressed: () => {
+                  Navigate.to(context, HomeScreen.id)}
                   ,
                   icon: 'assets/icons/home.svg',
                   text: 'Home',
@@ -47,8 +50,8 @@ class _LayoutBottomBarState extends State<LayoutBottomBar> {
               children: [
 
                 NavigationButton(
-                  onPressed: () => {},
-                  // Navigate.to(context, NotificationScreen.id),
+                  onPressed: () => {
+                  Navigate.to(context, NotificationScreen.id)},
                   icon: 'assets/icons/notification.svg',
                   text: 'Notification',
                   tab: 2,

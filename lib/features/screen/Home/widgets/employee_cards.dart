@@ -11,7 +11,7 @@ class EmployeeCard extends StatelessWidget {
       'Muhammad Haseeb',
       'Urooj Majid',
       'Areeba Tanveer',
-          'Muhammad Ismail',
+      'Muhammad Ismail',
       'Muhammad Haseeb',
     ];
 

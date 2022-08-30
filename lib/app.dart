@@ -19,8 +19,6 @@ class MyApp extends StatelessWidget {
           // theme: AppTheme.themeData(),
           
           initialRoute: SplashScreen.id,
-          // initialRoute: HomeScreen.id,
-          // initialRoute: EmployeeDetails.id,
           routes: Routes.routes,
       
     );

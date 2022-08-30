@@ -1,11 +1,17 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:orio_employees/resources/constants.dart';
 
 class Details extends StatelessWidget {
-  const Details({Key? key}) : super(key: key);
+  final String dob, phonenumber, email;
+  final double employeeid;
+
+  Details({
+    required this.dob,
+    required this.employeeid,
+    required this.phonenumber,
+    required this.email,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -29,14 +35,15 @@ class Details extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 17,
                     fontWeight: FontWeight.bold,
-                    
                   ),
                 ),
                 SizedBox(
                   width: 3,
                 ),
                 Text(
-                  '1033',
+                  employeeid.toString(),
+                  // '1033'
+
                   style: TextStyle(
                     color: Color.fromARGB(255, 132, 130, 130),
                     fontSize: 17,
@@ -44,7 +51,7 @@ class Details extends StatelessWidget {
                 ),
               ],
             ),
-              Row(
+            Row(
               children: [
                 Text(
                   'DOB:',
@@ -57,19 +64,19 @@ class Details extends StatelessWidget {
                   width: 3,
                 ),
                 Text(
-                  '16-01-2000',
+                  // '16-01-2000',
+                  dob,
                   style: TextStyle(
                     fontSize: 17,
-                   color: Color.fromARGB(255, 132, 130, 130),
+                    color: Color.fromARGB(255, 132, 130, 130),
                   ),
                 ),
               ],
-              ),
-
-               Row(
+            ),
+            Row(
               children: [
                 Text(
-                  'Phone No:',
+                  'Phone Number:',
                   style: TextStyle(
                     fontSize: 17,
                     fontWeight: FontWeight.bold,
@@ -79,7 +86,8 @@ class Details extends StatelessWidget {
                   width: 3,
                 ),
                 Text(
-                  '0308-9270950',
+                  // '0308-9270950',
+                  phonenumber.toString(),
                   style: TextStyle(
                     fontSize: 17,
                     color: Color.fromARGB(255, 132, 130, 130),
@@ -87,7 +95,7 @@ class Details extends StatelessWidget {
                 ),
               ],
             ),
-              Row(
+            Row(
               children: [
                 Text(
                   'Email:',
@@ -100,14 +108,15 @@ class Details extends StatelessWidget {
                   width: 3,
                 ),
                 Text(
-                  'muhammadismail@gmail.com',
+                  // 'muhammadismail@gmail.com',
+                  email,
                   style: TextStyle(
                     fontSize: 17,
                     color: Color.fromARGB(255, 132, 130, 130),
                   ),
                 ),
               ],
-              ),
+            ),
           ],
         ),
       ),
