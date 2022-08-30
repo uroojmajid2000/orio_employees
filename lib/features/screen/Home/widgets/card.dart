@@ -16,7 +16,7 @@ class HomeCard extends StatelessWidget {
       // onTap: () => Navigate.to(context, EmployeDetails.id),
       child: Container(
         width: size.width * 0.45,
-        height: 170,
+        // height: 150,
         decoration: const BoxDecoration(
           color: Color(0xFFEEEFF1),
           borderRadius: BorderRadius.all(Radius.circular(12)),

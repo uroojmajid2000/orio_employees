@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:orio_employees/features/employee/screen/widgets/details.dart';
+import 'package:orio_employees/resources/constants.dart';
 import 'package:orio_employees/shared/layout/layout.dart';
+import 'package:orio_employees/shared/widgets/text.dart';
 part 'widgets/body.dart';
 
 

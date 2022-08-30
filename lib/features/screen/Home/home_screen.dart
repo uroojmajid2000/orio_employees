@@ -26,6 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
       
       currentTab: 1,
       body: SingleChildScrollView(
+       
         child: Body(),
       ),
     );

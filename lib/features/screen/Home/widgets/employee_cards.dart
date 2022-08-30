@@ -10,18 +10,20 @@ class EmployeeCard extends StatelessWidget {
       'Muhammad Ismail',
       'Muhammad Haseeb',
       'Urooj Majid',
-      'Areeba Tanveer'
+      'Areeba Tanveer',
+          'Muhammad Ismail',
+      'Muhammad Haseeb',
     ];
 
     return GridView.builder(
         physics: ScrollPhysics(),
-        itemCount: 4,
+        itemCount: names.length,
         shrinkWrap: true,
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
           mainAxisSpacing: 20.0,
           crossAxisSpacing: 20.0,
-          childAspectRatio: 3 / 2,
+          childAspectRatio: 5 / 4,
         ),
         itemBuilder: (context, index) {
           return HomeCard(text: names[index]);
