@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:orio_employees/features/screen/Home/widgets/card.dart';
+import 'package:orio_employees/features/screen/Home/widgets/employe.dart';
 import 'package:orio_employees/features/screen/Home/widgets/employee_cards.dart';
 import 'package:orio_employees/features/screen/Home/widgets/searchbar.dart';
 import 'package:orio_employees/resources/colors.dart';
