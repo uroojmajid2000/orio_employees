@@ -24,10 +24,8 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return const Layout(
-      
       currentTab: 1,
       body: SingleChildScrollView(
-       
         child: Body(),
       ),
     );
