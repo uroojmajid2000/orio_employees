@@ -10,7 +10,7 @@ class Routes {
 
     SplashScreen.id: (context) => const SplashScreen(),
     HomeScreen.id: (context) => const HomeScreen(),
-    EmployeeDetails.id: (context) => const EmployeeDetails(),
+    // EmployeeDetails.id: (context) =>  EmployeeDetails(),
     NotificationScreen.id: (context) => const NotificationScreen(),
     
   };

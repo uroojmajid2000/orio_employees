@@ -4,7 +4,7 @@ import 'package:orio_employees/resources/constants.dart';
 
 class Details extends StatelessWidget {
   final String dob, phonenumber, email;
-  final double employeeid;
+  final int employeeid;
 
   Details({
     required this.dob,
