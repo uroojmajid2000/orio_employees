@@ -20,10 +20,12 @@ class Body extends StatelessWidget {
           Center(
             child: CircleAvatar(
                 radius: 70, //radius is 50
+                backgroundColor: Color(0xFFA9A9A9), 
                 backgroundImage: AssetImage(
 
-                    // 'assets/images/ismail.jfif'
-                    emp.image)),
+                    emp.image)
+                    
+                    ),
           ),
           SizedBox(
             height: 15,

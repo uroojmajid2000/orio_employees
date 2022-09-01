@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:orio_employees/features/employee/screen/employeedetail_screen.dart';
 import 'package:orio_employees/features/screen/Home/widgets/employe.dart';
-import 'package:orio_employees/shared/routes/navigate.dart';
 
 class HomeCard extends StatelessWidget {
   final Employe emp;
@@ -31,8 +29,9 @@ class HomeCard extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/icons/man.png',
+              // 'assets/icons/man.png',
               // 'assets/icons/women.png',
+              emp.iconimage,
               width: 70,
               
               ),
