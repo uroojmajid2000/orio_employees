@@ -34,7 +34,7 @@ class Body extends StatelessWidget {
               child: MyText.h2(
             emp.name,
 
-            // 'Muhammad Ismail'
+
           )),
           SizedBox(
             height: 5,
@@ -44,7 +44,7 @@ class Body extends StatelessWidget {
               emp.position,
               // '(Full Stack Developer)',
 
-              style: TextStyle(color: Color(0xFFA9A9A9), fontSize: 15),
+              style: TextStyle(color: Color(0xFFA9A9A9), fontSize: 17),
             ),
           ),
           SizedBox(

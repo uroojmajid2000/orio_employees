@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
      return MaterialApp(
           title: 'Orio Attendance',
 
-
+debugShowCheckedModeBanner: false,
           // theme: AppTheme.themeData(),
 
           initialRoute: SplashScreen.id,

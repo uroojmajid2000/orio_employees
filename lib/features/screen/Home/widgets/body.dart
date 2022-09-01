@@ -19,16 +19,42 @@ class _BodyState extends State<Body> {
       phonenumber: '0340-2732719',
       email: 'shahzaib.dahani@orio.tech',
     ),
-    Employe(
-      iconimage: 'assets/icons/man.png',
-      image: 'assets/images/bilalmajeed.jfif',
-      name: 'Bilal Abdul Majeed',
-      position: '(CEO)',
-      dob: '03/Oct/1982',
-      employeeid: 1000,
-      phonenumber: '0321-8981892',
-      email: 'bilal@orio.tech',
+     Employe(
+      iconimage: 'assets/icons/girl.png',
+      image: 'assets/images/urooj.jfif',
+      name: 'urooj majid',
+      position: '(Flutter Developer)',
+      dob: '18-18-2000',
+      employeeid: 1030,
+      phonenumber: '0308-9270950',
+      email: 'urooj.majid2000@gmail.com',
     ),
+
+     Employe(
+      iconimage: 'assets/icons/man.png',
+      image: 'assets/images/asifali.jfif',
+      name: 'Asif Ali',
+      position: '(Team Lead Development)',
+      dob: '25/Mar/1986',
+      employeeid: 1026,
+      phonenumber: '0314-5046741',
+      email: 'gopang@orio.tech',
+    ),
+
+ Employe(
+      iconimage: 'assets/icons/girl.png',
+      image: 'assets/images/nourina.png',
+      name: 'Nourina Hassan',
+      position: '(Junior Web Developer)',
+      dob: '12/May/1991',
+      employeeid: 1020,
+      phonenumber: '0304-2819893',
+      email: 'nourina.hassan@orio.tech',
+    ),
+
+   
+   
+
     Employe(
       iconimage: 'assets/icons/man.png',
       image: 'assets/images/ahmedomer.jfif',
@@ -39,6 +65,31 @@ class _BodyState extends State<Body> {
       phonenumber: '0336-0309494',
       email: 'ahmed@orio.tech',
     ),
+
+
+ Employe(
+      iconimage: 'assets/icons/girl.png',
+      image: 'assets/images/farihabaji.png',
+      name: 'Fariha Hassan',
+      position: '(Senior Web Developer)',
+      dob: '1/Dec/1987',
+      employeeid: 1027,
+      phonenumber: '0345-2826003',
+      email: 'fariha.hassan@orio.tech',
+    ),
+
+     Employe(
+      iconimage: 'assets/icons/man.png',
+      image: 'assets/images/bilalmajeed.jfif',
+      name: 'Bilal Abdul Majeed',
+      position: '(CEO)',
+      dob: '03/Oct/1982',
+      employeeid: 1000,
+      phonenumber: '0321-8981892',
+      email: 'bilal@orio.tech',
+    ),
+
+
     Employe(
       iconimage: 'assets/icons/man.png',
       image: 'assets/images/humza.jfif',
@@ -112,7 +163,7 @@ class _BodyState extends State<Body> {
     Employe(
       iconimage: 'assets/icons/man.png',
       image: 'assets/images/haris.jfif',
-      name: 'HARIS HUSSAIN',
+      name: 'Haris Hussain',
       position: '(IOS Developer)',
       dob: '-',
       employeeid: 1019,
@@ -129,16 +180,7 @@ class _BodyState extends State<Body> {
       phonenumber: '0316-1604575',
       email: 'itsmuhammadismail@gmail.com',
     ),
-    Employe(
-      iconimage: 'assets/icons/girl.png',
-      image: 'assets/images/nourina.png',
-      name: 'NOURINA HASSAN',
-      position: '(Junior Web Developer)',
-      dob: '12/May/1991',
-      employeeid: 1020,
-      phonenumber: '0304-2819893',
-      email: 'nourina.hassan@orio.tech',
-    ),
+    
     Employe(
       iconimage: 'assets/icons/man.png',
       image: 'assets/images/muzammil.png',
@@ -149,36 +191,18 @@ class _BodyState extends State<Body> {
       phonenumber: '0313-6811394',
       email: 'muzammil@orio.tech',
     ),
-    Employe(
-      iconimage: 'assets/icons/girl.png',
-      image: 'assets/images/farihabaji.png',
-      name: 'Fariha Hassan',
-      position: '(Senior Web Developer)',
-      dob: '1/Dec/1987',
-      employeeid: 1027,
-      phonenumber: '0345-2826003',
-      email: 'fariha.hassan@orio.tech',
-    ),
+   
     Employe(
       iconimage: 'assets/icons/man.png',
       image: 'assets/images/haseeb.jfif',
       name: 'Muhammad Haseeb Ullah',
       position: '(Full Stack Developer)',
-      dob: '-',
+      dob: '25/08/1998',
       employeeid: 1032,
       phonenumber: '0305-8202034',
       email: 'mohammad.haseeb@orio.tech',
     ),
-    Employe(
-      iconimage: 'assets/icons/girl.png',
-      image: 'assets/images/urooj.jfif',
-      name: 'urooj majid',
-      position: '(Flutter Developer)',
-      dob: '18-18-2000',
-      employeeid: 1030,
-      phonenumber: '0308-9270950',
-      email: 'urooj.majid2000@gmail.com',
-    ),
+   
     Employe(
       iconimage: 'assets/icons/man.png',
       image: 'assets/icons/man.png',

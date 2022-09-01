@@ -24,7 +24,7 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   void navigate() {
-    Timer(Duration(seconds: 3), () {
+    Timer(Duration(seconds: 1), () {
       Navigate.next(context, HomeScreen.id);
     });
   }

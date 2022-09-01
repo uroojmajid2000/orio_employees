@@ -14,7 +14,7 @@ class MyText {
         text,
         style: const TextStyle(
           fontWeight: FontWeight.w700,
-          fontSize: 22.0,
+          fontSize: 24.0,
         ),
       );
 

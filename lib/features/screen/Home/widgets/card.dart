@@ -13,12 +13,12 @@ class HomeCard extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
 
     return GestureDetector(
-      onTap: () => 
-       Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => EmployeeDetails(emp: emp)),
-            ),
+      onTap: () => Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => EmployeeDetails(emp: emp)),
+      ),
       child: Container(
+        padding: EdgeInsets.all(10),
         width: size.width * 0.45,
         // height: 150,
         decoration: const BoxDecoration(
@@ -33,12 +33,12 @@ class HomeCard extends StatelessWidget {
               // 'assets/icons/women.png',
               emp.iconimage,
               width: 70,
-              
-              ),
+            ),
             const SizedBox(height: 10),
             Text(
-                // 'Muhammad Ismail',
-                emp.name),
+                emp.name,
+                textAlign: TextAlign.center,
+          ),
           ],
         ),
       ),
