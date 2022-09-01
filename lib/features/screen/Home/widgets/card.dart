@@ -30,8 +30,10 @@ class HomeCard extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SvgPicture.asset(
-              'assets/icons/man.svg'
+            Image.asset(
+              'assets/icons/man.png',
+              // 'assets/icons/women.png',
+              width: 70,
               
               ),
             const SizedBox(height: 10),
