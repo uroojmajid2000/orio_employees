@@ -20,7 +20,6 @@ class HomeCard extends StatelessWidget {
       child: Container(
         padding: EdgeInsets.all(10),
         width: size.width * 0.45,
-        // height: 150,
         decoration: const BoxDecoration(
           color: Color(0xFFEEEFF1),
           borderRadius: BorderRadius.all(Radius.circular(12)),
@@ -29,8 +28,6 @@ class HomeCard extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              // 'assets/icons/man.png',
-              // 'assets/icons/women.png',
               emp.iconimage,
               width: 70,
             ),

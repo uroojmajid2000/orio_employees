@@ -27,7 +27,7 @@ class Details extends StatelessWidget {
       child: Padding(
         padding: kDefaultPadding,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Row(
               children: [
@@ -52,18 +52,18 @@ class Details extends StatelessWidget {
                 ),
               ],
             ),
-            Row(
-              children: [
-                Text(
-                  'field:',
-                  style: TextStyle(
-                    fontSize: 17,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-                SizedBox(
-                  width: 3,
-                ),
+            // Row(
+              // children: [
+              //   Text(
+              //     'field:',
+              //     style: TextStyle(
+              //       fontSize: 17,
+              //       fontWeight: FontWeight.bold,
+              //     ),
+              //   ),
+              //   SizedBox(
+              //     width: 3,
+              //   ),
                 // Text(
                 //   '16-01-2000',
                 //   dob,
@@ -72,20 +72,20 @@ class Details extends StatelessWidget {
                 //     color: Color.fromARGB(255, 132, 130, 130),
                 //   ),
                 // ),
-              ],
-            ),
-            Row(
-              children: [
-                Text(
-                  'field:',
-                  style: TextStyle(
-                    fontSize: 17,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-                SizedBox(
-                  width: 3,
-                ),
+            //   ],
+            // ),
+            // Row(
+            //   children: [
+            //     Text(
+            //       'field:',
+            //       style: TextStyle(
+            //         fontSize: 17,
+            //         fontWeight: FontWeight.bold,
+            //       ),
+            //     ),
+            //     SizedBox(
+            //       width: 3,
+            //     ),
                 // Text(
                 //   '0308-9270950',
                 //   phonenumber.toString(),
@@ -94,8 +94,8 @@ class Details extends StatelessWidget {
                 //     color: Color.fromARGB(255, 132, 130, 130),
                 //   ),
                 // ),
-              ],
-            ),
+            //   ],
+            // ),
             Row(
               children: [
                 Text(

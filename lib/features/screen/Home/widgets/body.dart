@@ -19,7 +19,7 @@ class _BodyState extends State<Body> {
       // phonenumber: '0340-2732719',
       email: 'shahzaib.dahani@orio.tech',
     ),
-     Employe(
+    Employe(
       iconimage: 'assets/icons/girl.png',
       image: 'assets/images/urooj.jfif',
       name: 'urooj majid',
@@ -29,8 +29,7 @@ class _BodyState extends State<Body> {
       // phonenumber: '0308-9270950',
       email: 'urooj.majid2000@gmail.com',
     ),
-
-     Employe(
+    Employe(
       iconimage: 'assets/icons/man.png',
       image: 'assets/images/asifali.jfif',
       name: 'Asif Ali',
@@ -40,10 +39,10 @@ class _BodyState extends State<Body> {
       // phonenumber: '0314-5046741',
       email: 'gopang@orio.tech',
     ),
-
- Employe(
+    Employe(
       iconimage: 'assets/icons/girl.png',
-      image: 'assets/images/nourina.png',
+      // image: 'assets/images/nourina.png',
+      image: 'assets/images/nourinapic2.png',
       name: 'Nourina Hassan',
       position: '(Junior Web Developer)',
       // dob: '12/May/1991',
@@ -51,10 +50,6 @@ class _BodyState extends State<Body> {
       // phonenumber: '0304-2819893',
       email: 'nourina.hassan@orio.tech',
     ),
-
-   
-   
-
     Employe(
       iconimage: 'assets/icons/man.png',
       image: 'assets/images/ahmedomer.jfif',
@@ -65,9 +60,7 @@ class _BodyState extends State<Body> {
       // phonenumber: '0336-0309494',
       email: 'ahmed@orio.tech',
     ),
-
-
- Employe(
+    Employe(
       iconimage: 'assets/icons/girl.png',
       image: 'assets/images/farihabaji.png',
       name: 'Fariha Hassan',
@@ -77,8 +70,7 @@ class _BodyState extends State<Body> {
       // phonenumber: '0345-2826003',
       email: 'fariha.hassan@orio.tech',
     ),
-
-     Employe(
+    Employe(
       iconimage: 'assets/icons/man.png',
       image: 'assets/images/bilalmajeed.jfif',
       name: 'Bilal Abdul Majeed',
@@ -88,8 +80,6 @@ class _BodyState extends State<Body> {
       // phonenumber: '0321-8981892',
       email: 'bilal@orio.tech',
     ),
-
-
     Employe(
       iconimage: 'assets/icons/man.png',
       image: 'assets/images/humza.jfif',
@@ -180,7 +170,6 @@ class _BodyState extends State<Body> {
       // phonenumber: '0316-1604575',
       email: 'itsmuhammadismail@gmail.com',
     ),
-    
     Employe(
       iconimage: 'assets/icons/man.png',
       image: 'assets/images/muzammil.png',
@@ -191,7 +180,6 @@ class _BodyState extends State<Body> {
       // phonenumber: '0313-6811394',
       email: 'muzammil@orio.tech',
     ),
-   
     Employe(
       iconimage: 'assets/icons/man.png',
       image: 'assets/images/haseeb.jfif',
@@ -202,7 +190,6 @@ class _BodyState extends State<Body> {
       // phonenumber: '0305-8202034',
       email: 'mohammad.haseeb@orio.tech',
     ),
-   
     Employe(
       iconimage: 'assets/icons/man.png',
       image: 'assets/icons/man.png',
@@ -232,6 +219,16 @@ class _BodyState extends State<Body> {
       employeeid: 1040,
       // phonenumber: '0301 2263265',
       email: 'jawad.siddiqui@orio.tech',
+    ),
+    Employe(
+      iconimage: 'assets/icons/girl.png',
+      image: 'assets/icons/girl.png',
+      name: 'Javeria Khan',
+      position: '(Outbound Sales Executive)',
+      // dob: 25/Jun/2001,
+      employeeid: 1043,
+      // phonenumber: '0301 2263265',
+      email: 'javeria@orio.tech',
     ),
   ];
   List<Employe> empList = emp;
