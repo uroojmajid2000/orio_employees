@@ -6,9 +6,9 @@ class Employe {
   final String iconimage;
   final String name;
   final String position;
-  final String dob;
+  // final String dob;
   final int employeeid;
-  final String phonenumber;
+  // final String phonenumber;
   final String email;
 
   Employe({
@@ -16,9 +16,9 @@ class Employe {
     required this.iconimage,
     required this.name,
     required this.position,
-    required this.dob,
+    // required this.dob,
     required this.employeeid,
-    required this.phonenumber,
+    // required this.phonenumber,
     required this.email,
   });
 }

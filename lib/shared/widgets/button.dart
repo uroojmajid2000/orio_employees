@@ -1,43 +1,32 @@
-// import 'package:flutter/material.dart';
-// import 'package:orio_attendance_app_flutter/shared/widgets/text.dart';
+import 'package:flutter/material.dart';
+import 'package:orio_employees/resources/colors.dart';
 
-// class Alert extends StatelessWidget {
-//   final String heading, body;
+class Button extends StatelessWidget {
+  const Button({
+    Key? key,
+    required this.child,
+    required this.onPressed,
+  }) : super(key: key);
 
-//   const Alert({super.key, required this.heading, required this.body});
+  final Widget child;
+  final VoidCallback onPressed;
 
-//   @override
-//   Widget build(BuildContext context) {
-//     return AlertDialog(
-//       content: SizedBox(
-//         height: 200,
-//         child: Column(
-//           mainAxisAlignment: MainAxisAlignment.center,
-//           children: [
-//             Container(
-//               width: 100,
-//               height: 100,
-//               decoration: BoxDecoration(
-//                 color: Colors.red.withOpacity(0.3),
-//                 shape: BoxShape.circle,
-//               ),
-//               child: const Icon(
-//                 Icons.close,
-//                 size: 60,
-//                 color: Colors.red,
-//               ),
-//             ),
-//             const SizedBox(
-//               height: 10,
-//             ),
-//             MyText.h2(heading),
-//             const SizedBox(
-//               height: 5,
-//             ),
-//             MyText.body(body),
-//           ],
-//         ),
-//       ),
-//     );
-//   }
-// }
+  @override
+  Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
+    return SizedBox(
+      width: size.width * 0.8,
+      height: 52,
+      child: ElevatedButton(
+        onPressed: onPressed,
+        style: ElevatedButton.styleFrom(
+            textStyle: const TextStyle(fontSize: 18),
+            primary: kPrimaryColor,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            )),
+        child: child,
+      ),
+    );
+  }
+}

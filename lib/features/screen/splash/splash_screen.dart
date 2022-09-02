@@ -5,6 +5,7 @@ import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:orio_employees/features/screen/Home/home_screen.dart';
+import 'package:orio_employees/features/screen/Login/login_screen.dart';
 import 'package:orio_employees/resources/colors.dart';
 import 'package:orio_employees/shared/routes/navigate.dart';
 
@@ -25,7 +26,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   void navigate() {
     Timer(Duration(seconds: 1), () {
-      Navigate.next(context, HomeScreen.id);
+      Navigate.next(context, LoginScreen.id);
     });
   }
 

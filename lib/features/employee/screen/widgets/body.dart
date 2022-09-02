@@ -51,9 +51,9 @@ class Body extends StatelessWidget {
             height: 38,
           ),
           Details(
-              dob: emp.dob,
+              // dob: emp.dob,
               employeeid: emp.employeeid,
-              phonenumber: emp.phonenumber,
+              // phonenumber: emp.phonenumber,
               email: emp.email,
               )
         ],

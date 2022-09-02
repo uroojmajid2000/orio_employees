@@ -3,13 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:orio_employees/resources/constants.dart';
 
 class Details extends StatelessWidget {
-  final String dob, phonenumber, email;
+  // final String dob, phonenumber;
+  final String email;
   final int employeeid;
 
   Details({
-    required this.dob,
+    // required this.dob,
     required this.employeeid,
-    required this.phonenumber,
+    // required this.phonenumber,
     required this.email,
   });
 
@@ -54,7 +55,7 @@ class Details extends StatelessWidget {
             Row(
               children: [
                 Text(
-                  'DOB:',
+                  'field:',
                   style: TextStyle(
                     fontSize: 17,
                     fontWeight: FontWeight.bold,
@@ -63,20 +64,20 @@ class Details extends StatelessWidget {
                 SizedBox(
                   width: 3,
                 ),
-                Text(
-                  // '16-01-2000',
-                  dob,
-                  style: TextStyle(
-                    fontSize: 17,
-                    color: Color.fromARGB(255, 132, 130, 130),
-                  ),
-                ),
+                // Text(
+                //   '16-01-2000',
+                //   dob,
+                //   style: TextStyle(
+                //     fontSize: 17,
+                //     color: Color.fromARGB(255, 132, 130, 130),
+                //   ),
+                // ),
               ],
             ),
             Row(
               children: [
                 Text(
-                  'Phone Number:',
+                  'field:',
                   style: TextStyle(
                     fontSize: 17,
                     fontWeight: FontWeight.bold,
@@ -85,14 +86,14 @@ class Details extends StatelessWidget {
                 SizedBox(
                   width: 3,
                 ),
-                Text(
-                  // '0308-9270950',
-                  phonenumber.toString(),
-                  style: TextStyle(
-                    fontSize: 17,
-                    color: Color.fromARGB(255, 132, 130, 130),
-                  ),
-                ),
+                // Text(
+                //   '0308-9270950',
+                //   phonenumber.toString(),
+                //   style: TextStyle(
+                //     fontSize: 17,
+                //     color: Color.fromARGB(255, 132, 130, 130),
+                //   ),
+                // ),
               ],
             ),
             Row(
@@ -107,6 +108,7 @@ class Details extends StatelessWidget {
                 SizedBox(
                   width: 3,
                 ),
+
                 Text(
                   // 'muhammadismail@gmail.com',
                   email,
