@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
      return MaterialApp(
-          title: 'Orio Attendance',
+          title: 'Orio Attendance App',
 
 debugShowCheckedModeBanner: false,
           // theme: AppTheme.themeData(),
